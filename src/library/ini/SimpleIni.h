@@ -214,6 +214,7 @@
 
 #include <cstring>
 #include <string>
+#include <functional>
 #include <map>
 #include <list>
 #include <algorithm>
