@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{17CA1768-E466-35D6-A03D-5F59C3BEDC88}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>licensecc_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SourceCode\HDS\licensecc\build\src\library\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">licensecc_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">licensecc_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SourceCode\HDS\licensecc\build\src\library\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">licensecc_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">licensecc_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SourceCode\HDS\licensecc\build\src\library\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">licensecc_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">licensecc_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SourceCode\HDS\licensecc\build\src\library\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">licensecc_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">licensecc_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;HAS_OPENSSL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;HAS_OPENSSL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;HAS_OPENSSL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;HAS_OPENSSL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;HAS_OPENSSL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;HAS_OPENSSL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;HAS_OPENSSL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;HAS_OPENSSL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SourceCode\HDS\licensecc\projects\DEFAULT\include\licensecc\DEFAULT;D:\SourceCode\HDS\licensecc\include;D:\SourceCode\HDS\licensecc\src\library\..\..\include;D:\SourceCode\test\curl_project\openssl-1.1.1-stable-SNAP-20200902\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SourceCode\HDS\licensecc\src\library\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/SourceCode/HDS/licensecc/src/library/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/SourceCode/HDS/licensecc -BD:/SourceCode/HDS/licensecc/build --check-stamp-file D:/SourceCode/HDS/licensecc/build/src/library/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SourceCode\HDS\licensecc\build\src\library\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/SourceCode/HDS/licensecc/src/library/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/SourceCode/HDS/licensecc -BD:/SourceCode/HDS/licensecc/build --check-stamp-file D:/SourceCode/HDS/licensecc/build/src/library/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SourceCode\HDS\licensecc\build\src\library\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/SourceCode/HDS/licensecc/src/library/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/SourceCode/HDS/licensecc -BD:/SourceCode/HDS/licensecc/build --check-stamp-file D:/SourceCode/HDS/licensecc/build/src/library/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SourceCode\HDS\licensecc\build\src\library\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/SourceCode/HDS/licensecc/src/library/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/SourceCode/HDS/licensecc -BD:/SourceCode/HDS/licensecc/build --check-stamp-file D:/SourceCode/HDS/licensecc/build/src/library/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SourceCode\HDS\licensecc\build\src\library\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\SourceCode\HDS\licensecc\src\library\licensecc.cpp" />
+    <ClCompile Include="D:\SourceCode\HDS\licensecc\src\library\LicenseReader.cpp" />
+    <ClCompile Include="D:\SourceCode\HDS\licensecc\src\library\limits\license_verifier.cpp" />
+    <ClCompile Include="D:\SourceCode\HDS\licensecc\src\library\ini\ConvertUTF.cpp" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\hw_identifier_facade.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\default_strategy.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\ethernet.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\disk_strategy.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\identification_strategy.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\hw_identifier.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\ApplicationFolder.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\EnvironmentVarLocation.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\EnvironmentVarData.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\ExternalDefinition.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\LocatorStrategy.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\LocatorFactory.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\cpu_info.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\dmi_info.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\signature_verifier.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\execution_environment_common.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\execution_environment.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\os_win.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\network.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.dir\$(Configuration)\EventRegistry.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.dir\$(Configuration)\file_utils.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.dir\$(Configuration)\string_utils.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.dir\$(Configuration)\base64.obj" />
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.dir\$(Configuration)\logger.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\SourceCode\HDS\licensecc\build\ZERO_CHECK.vcxproj">
+      <Project>{FA45EF39-7EBC-3E1E-93FE-DA2377AFDB70}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.vcxproj">
+      <Project>{3BB3BC24-4A27-3E96-B380-8E0B8E5F09CF}</Project>
+      <Name>base</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.vcxproj">
+      <Project>{F60C2D66-F2BD-304C-9025-E298167D0416}</Project>
+      <Name>hw_identifier</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.vcxproj">
+      <Project>{2A123889-76DE-31FE-B69E-A04FF10DF09B}</Project>
+      <Name>locate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.vcxproj">
+      <Project>{4F429C24-8EA2-35C7-9A99-D0912F8D4D5B}</Project>
+      <Name>os</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

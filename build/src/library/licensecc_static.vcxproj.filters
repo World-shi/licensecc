@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\SourceCode\HDS\licensecc\src\library\licensecc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SourceCode\HDS\licensecc\src\library\LicenseReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SourceCode\HDS\licensecc\src\library\limits\license_verifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SourceCode\HDS\licensecc\src\library\ini\ConvertUTF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SourceCode\HDS\licensecc\src\library\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\hw_identifier_facade.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\default_strategy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\ethernet.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\disk_strategy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\identification_strategy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\hw_identifier\hw_identifier.dir\$(Configuration)\hw_identifier.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\ApplicationFolder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\EnvironmentVarLocation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\EnvironmentVarData.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\ExternalDefinition.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\LocatorStrategy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\locate\locate.dir\$(Configuration)\LocatorFactory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\cpu_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\dmi_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\signature_verifier.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\execution_environment_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\execution_environment.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\os_win.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\os\os.dir\$(Configuration)\network.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.dir\$(Configuration)\EventRegistry.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.dir\$(Configuration)\file_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.dir\$(Configuration)\string_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.dir\$(Configuration)\base64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\SourceCode\HDS\licensecc\build\src\library\base\base.dir\$(Configuration)\logger.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{D55E2444-6F6C-3249-8938-C0CE17E89A19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0FF532EC-4E99-3783-81A5-9803E98EBCCC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
