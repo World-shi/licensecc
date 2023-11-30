@@ -73,6 +73,8 @@ string sign_data(const string& data, const string& test_name) {
 	stringstream ss;
 	ss << LCC_EXE << " test sign";
 	ss << " --" PARAM_PRIMARY_KEY " " << LCC_PROJECT_PRIVATE_KEY;
+	//ss << " --" PARAM_PRIMARY_KEY " "
+	//   << "D:/SourceCode/HDS/licensecc/build/extern/license-generator/src/license_generator/Debug/hdpdfis/private_key.rsa";
 	ss << " -d " << data;
 	ss << " -o " << output_file_s;
 

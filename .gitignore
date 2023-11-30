@@ -19,7 +19,7 @@
 /Testing
 
 # Cmake generated files
-build/*
+# build/*
 !build/.gitkeep 
 install/*
 
@@ -30,7 +30,7 @@ install/*
 *.out
 /Default/
 
-projects/*
+# projects/*
 !projects/.gitkeep
 
 **/CMakeCache.txt

@@ -19,7 +19,7 @@ namespace test {
 using namespace std;
 
 BOOST_AUTO_TEST_CASE(verify_signature_ok) {
-	const string test_data("test_data");
+	const string test_data("HDPDFISclient-signatureAEjP-GMIA-AAA=lic_ver200valid-to2023-11-31");
 	const string signature = sign_data(test_data, string("verify_signature"));
 
 	FUNCTION_RETURN result = license::os::verify_signature(test_data, signature);
