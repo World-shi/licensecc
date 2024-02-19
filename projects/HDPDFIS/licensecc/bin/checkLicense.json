@@ -1,0 +1,35 @@
+{
+	"mainAppName": "pdfIS.exe",
+	"invalid": [
+		{
+			"name": "许昌日报",
+			"authorization-date": "2024-01-15",
+			"client-signature": "AF2x-2PoA-AAA=",
+			"valid-to": "无限期",
+			"sig": "qT3zbhLnDTmZd1UuoycGIZQFIOrpbfhOWAHSDDpq1vioth38X0R7pSD/uh7p8qryqQI8zBmUfgOdI0vhfX0fkjwg9b8XGfLCriK0vGcOU1hu9jiZM1ftja1P7EwNkdgiZx5gnnYtb5T4KGq78ZtCxJSCXEpa4QDqP5TB2w2GTAc="
+		}
+	],
+	"valid": [
+		{
+			"name": "海南州",
+			"authorization-date": "2024-01-09",
+			"client-signature": "AErT-DgAA-AAA=",
+			"valid-to": "2024-02-10",
+			"sig": "N7TCrWPp0/5zvK27VWmjfWR54lzXkadAEXBHZYuoSTWn3RXKR6abDpQIeO3EfzS2l4p4UgghVOfstyDe9VzLPkpFavKE3hqc9r9ocTPCy30XVzouc7cAiYsa1zijz9SgZGokCod41oMbjY0AJnDFTMYde5A26OxZ76/n0OesHmI="
+		},
+		{
+			"name": "新闻出版",
+			"authorization-date": "2024-01-08",
+			"client-signature": "AEJS-daYA-AAA=",
+			"valid-to": "2024-02-09",
+			"sig": "N7TCrWPp0/5zvK27VWmjfWR54lzXkadAEXBHZYuoSTWn3RXKR6abDpQIeO3EfzS2l4p4UgghVOfstyDe9VzLPkpFavKE3hqc9r9ocTPCy30XVzouc7cAiYsa1zijz9SgZGokCod41oMbjY0AJnDFTMYde5A26OxZ76/n0OesHmI="
+		},
+		{
+			"name": "时",
+			"authorization-date": "2023-12-01",
+			"client-signature": "AEjP-GMIA-AAA=",
+			"valid-to": "2023-12-31",
+			"sig": "UHmf5tDyQR9uqppGTZTvFYYuBKqThJyaLVRpSsX9I+8cUg1cqErwtihJNcfo5UAXSMsfrtc0Mjljn1LmyC4HJ4QtJafrtCwA/R8ZtbxqZ98nq5dnkNS2+jRYumj0pPk4hnBuiT3L6tYt5dUsMj24mxCfX+gSQ+NFUd1nJi0Uqf8="
+		}
+	]
+}
