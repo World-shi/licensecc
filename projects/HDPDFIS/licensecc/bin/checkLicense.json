@@ -37,7 +37,21 @@
 			"client-signature": "AF2x-2PoA-AAA=",
 			"valid-to": "2030-02-19",
 			"sig": "KOSAl6Xe77IKOxO/A5x9+82CGdcuYEwCGn312fOI7IPdSRX5BP1JFJZU8Qj2VUZOM7yUz6E9sENQ0+nXvtqXKEtqANUpj38UuCKLfSn3K5x09E4ofDHV74Z/Wihnz+eQ7T7i70HSIGutnfez5+7nRXN8RVaOe7Uvl/eKsW2D8Hk="
-		},	
+		},		
+		{
+			"name": "玉树",
+			"authorization-date": "2024-04-11",
+			"client-signature": "AE3l-0AYA-AAA=",
+			"valid-to": "2033-11-31",
+			"sig": "WU/4IMGGzsMjAiX5GdYSgSbXT9lD95y+CSuyXMj6HctGc7EWMiiM7+JN1NmSSxHRSP9H0L9fqx0fchFuXFEglSvWM2aFNMcBhP8t2YOXnU6htMtYGeC/tm5fbJV0k5Qh8Oi0yZ4kgo0MkFYI7wrkOM44kxYpZ2TL5P8W4pXMvKc="
+		},
+		{
+			"name": "大洋(张掖)-1",
+			"authorization-date": "2024-04-15",
+			"client-signature": "AEeT-A5wA-AAA=",
+			"valid-to": "2033-11-31",
+			"sig": "AeVxtELFKrBEo/zdRSqZcMSOCQITmn5dGcDHsF0OzlSEsyUAp6XeuUXYKsPcaKQCwUeYBRKjMLaQzlhcGcIc6QciTm5xoyZZfrKA71zl28Pfy80/CUiQRWmFIXkpoXDPY18XbIZS3rfBxPD/uFbq+zC0BD/E4wj5i8Kncdz749c="
+		},
 		{
 			"name": "时",
 			"authorization-date": "2023-12-01",
