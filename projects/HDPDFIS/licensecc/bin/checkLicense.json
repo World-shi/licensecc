@@ -18,6 +18,13 @@
 			"sig": "NWtKsceZ4RlDUlGwSydQ52Uof7ubrmAcd38ptq1OwdBkzY0d7gxAnQIMvf3hroICUUBjjlGRyBkZUNqSXE2Im4F9VJjXFsz6Yxg2p0DjM8lZJF2Mo+3vZa5cv6dlS7Rb2TxunvU/E1bF6OwhriA/UFrgenKSwdK/T1QPZjxMs+A="
 		},
 		{
+			"name": "海南州2",
+			"authorization-date": "2024-05-15",
+			"client-signature": "AFEy-qTQA-AAA=",
+			"valid-to": "2027-11-31",
+			"sig": "H/gX5KKrcLiXrzYYUtLs7cBzDtH1YMAWIFeulZxW55WizP0PsQe+/frOLaNc/oGxqQrcTNt6gCV7ynq1ywHa2wvr77ldH7Gj2Mwdy/K+/LgbidjiNwtboC2M8dtAYb2fPDFVBeprvdCE22IL14JlU7tJa4EU625/JFSojmh569k="
+		},
+		{
 			"name": "新闻出版",
 			"authorization-date": "2024-01-08",
 			"client-signature": "AEJS-daYA-AAA=",
@@ -26,10 +33,10 @@
 		},
 		{
 			"name": "岳阳日报",
-			"authorization-date": "2024-03-28",
+			"authorization-date": "2024-05-31",
 			"client-signature": "AFyB-YK4A-AAA=",
-			"valid-to": "2024-05-31",
-			"sig": "h9XNnUuDneUjpfiLLQX+GfUgiguZXc1Z0Y4QRFyKyeYi0+hrLEHcvNHVdOp5NFK9hcN/DIxYilgLwzOmXVTbsG83PyeOyo7olI5SdDQGVA3QNZxMNssqsoeBnjczW/NIxEfbR4KXjwg9CFz5UhpgggZrMeJDbTMVkhWhKF4yAco="
+			"valid-to": "2025-11-31",
+			"sig": "rNt7kHKqyAJPEjx/rgjJq881+EcRKkdbSp7lyxNY2bRM9TsKW54SXPo60w2i5eddPsvr79DCRwyXrB6PmCNJ6raY+6JVpsGepISv7yN2slo5wjKdrEzsQmIzrmbWsJor9i6ShwRn/+MSsB9frP5FYoJqWZy/i8mCYiPifShI+0s="
 		},
 		{
 			"name": "许昌日报",
@@ -37,7 +44,7 @@
 			"client-signature": "AF2x-2PoA-AAA=",
 			"valid-to": "2030-02-19",
 			"sig": "KOSAl6Xe77IKOxO/A5x9+82CGdcuYEwCGn312fOI7IPdSRX5BP1JFJZU8Qj2VUZOM7yUz6E9sENQ0+nXvtqXKEtqANUpj38UuCKLfSn3K5x09E4ofDHV74Z/Wihnz+eQ7T7i70HSIGutnfez5+7nRXN8RVaOe7Uvl/eKsW2D8Hk="
-		},		
+		},
 		{
 			"name": "玉树",
 			"authorization-date": "2024-04-11",
