@@ -53,6 +53,13 @@
 			"sig": "WU/4IMGGzsMjAiX5GdYSgSbXT9lD95y+CSuyXMj6HctGc7EWMiiM7+JN1NmSSxHRSP9H0L9fqx0fchFuXFEglSvWM2aFNMcBhP8t2YOXnU6htMtYGeC/tm5fbJV0k5Qh8Oi0yZ4kgo0MkFYI7wrkOM44kxYpZ2TL5P8W4pXMvKc="
 		},
 		{
+			"name": "玉树2",
+			"authorization-date": "2024-07-06",
+			"client-signature": "AEzg-VjgA-AAA=",
+			"valid-to": "2033-11-31",
+			"sig": "R8u7OYDHZFt+SNjINrNVaTK6ejei8eM55bqPXyvSjYs7wXxxvnO8wMnBEd9bsmDavgqO9h+D4ELWAhcLCJEtANsSfL1c1sYAcMT3oCX5KjgGn338wtUJ7m3UyENeohz5kfMuBS32ZkJfqunaLXEP5qItzfC6dKbg/QqGSv1ROZ8="
+		},
+		{
 			"name": "大洋(张掖)-1",
 			"authorization-date": "2024-04-15",
 			"client-signature": "AEeT-A5wA-AAA=",
@@ -63,8 +70,8 @@
 			"name": "时",
 			"authorization-date": "2023-12-01",
 			"client-signature": "AEjP-GMIA-AAA=",
-			"valid-to": "2023-12-31",
-			"sig": "UHmf5tDyQR9uqppGTZTvFYYuBKqThJyaLVRpSsX9I+8cUg1cqErwtihJNcfo5UAXSMsfrtc0Mjljn1LmyC4HJ4QtJafrtCwA/R8ZtbxqZ98nq5dnkNS2+jRYumj0pPk4hnBuiT3L6tYt5dUsMj24mxCfX+gSQ+NFUd1nJi0Uqf8="
+			"valid-to": "2033-11-31",
+			"sig": "o8PerzVby9CPJnQ5ivY4XObBOtDIClQo0+3KVuIAPwAOdb35SxFWvn+hskaZTtoCY6tiU6wUZEAzaQiSOKQIb2w5rOwy5OIrAP0XuOeFf+5JcbJeaXauf7dkjKFFfn1d33juTj0CweiwxI4/SwcK+6edrQoKxNbeF7e6eQDhzgI="
 		}
 	]
 }
