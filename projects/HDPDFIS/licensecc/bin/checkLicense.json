@@ -18,6 +18,13 @@
 	],
 	"valid": [
 		{
+			"name": "昌都数字报",
+			"authorization-date": "2024-12-05",
+			"client-signature": "AEbH-z/QA-AAA=",
+			"valid-to": "2035-11-31",
+			"sig": "Mu2kU7jRa/7c829qaFuRPwgWt7HCO9f8dadGtmqAphTqsCr+yVHlMmixfGuPcrPA6QQqdXfhIHgDpRp0BU7fjTGeVI77POpdxgzE89yXHeNaz0qHYF5n/Fj66OuDyokUTWy5pMSqAtNDQ1vJ1etEYkihzkvLzMh2HhXsAiDo+Yo="
+		},
+		{
 			"name": "海南州",
 			"authorization-date": "2024-01-09",
 			"client-signature": "AErT-DgAA-AAA=",
