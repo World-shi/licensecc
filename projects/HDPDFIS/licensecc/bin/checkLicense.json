@@ -18,6 +18,13 @@
 	],
 	"valid": [
 		{
+			"name": "湘西自治州团结报社",
+			"authorization-date": "2025-01-02",
+			"client-signature": "AEyi-L9oA-AAA=",
+			"valid-to": "2035-01-31",
+			"sig": "AVM3Y4vJx6X4IjVwoE0Cn7gMO8oLuq/EUf+oJGEBpJ5F0FY6iQuTd+SxIWxbr7k6pTUi+e+KpeL/7YBzGSt0ZNcHyBpynbygPwb5al9hhYKP6mGqeO4KUp+mxAn7Hqxfd41raf/pP1ymJXbXZzPGXtpLUAAVhTQD3tghm9fjVk0="
+		},	
+		{
 			"name": "昌都数字报",
 			"authorization-date": "2024-12-05",
 			"client-signature": "AEbH-z/QA-AAA=",
