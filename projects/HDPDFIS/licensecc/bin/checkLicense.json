@@ -18,6 +18,20 @@
 	],
 	"valid": [
 		{
+			"name": "忻州日报1",
+			"authorization-date": "2025-03-04",
+			"client-signature": "AFBS-SeYA-AAA=",
+			"valid-to": "2035-11-31",
+			"sig": "WJKzL65z9D7oqICl8kppd8kxrM/G/gcan0o1jKVclSco61113EGzODEoONOkTeGX6uxLJY7RKEgWmsLAU6rkrko4RofcR09lQqO2beezEIcTWz0SdIW7B91kBOCjyP7xwX4Tnh2Kc3ZBp9GxPezwbELc+U0pOtAMumOPfK6KPSU="
+		},	
+		{
+			"name": "忻州日报2",
+			"authorization-date": "2025-04-17",
+			"client-signature": "AEhf-mZgA-AAA=",
+			"valid-to": "2035-11-31",
+			"sig": "pYCrVbeNcY8ZnA78tnttYgZC4Ec0V0tQT7UxggTOllX50jmpAzPFjuX//yigGYnuasOgfMqb9mOUNYNknlcx8cEa6Lcdyf9fCHM2aeGj7Y4giACidnrVACdwZYnUYAvzmH3jR5lT1zc9ia733IDawIRML9R2iwUgsO75BZVzcEg="
+		},	
+		{
 			"name": "湘西自治州团结报社",
 			"authorization-date": "2025-01-02",
 			"client-signature": "AEyi-L9oA-AAA=",
