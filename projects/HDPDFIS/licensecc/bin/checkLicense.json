@@ -18,6 +18,13 @@
 	],
 	"valid": [
 		{
+			"name": "昌平融媒体中心",
+			"authorization-date": "2025-04-22",
+			"client-signature": "AEmL-CYoA-AAA=",
+			"valid-to": "2035-11-31",
+			"sig": "gt/Ko/PjfUDk+AVDpPZ8fVLfN063H8aYdTXzmjAnlca9FN3ZKNqiKftOMYNQ+YsXRUHZdUduU7mAC3h+sz6QLqZPJpaMlIXXrhwqUoH7P1NDL3H6icJiLeLqXz9HOEwsyRmPhJZPMA2F76OodJptzXYMSOjoo9Uhm80KYFMATnY="
+		},	
+		{
 			"name": "忻州日报1",
 			"authorization-date": "2025-03-04",
 			"client-signature": "AFBS-SeYA-AAA=",
