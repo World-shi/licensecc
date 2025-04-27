@@ -102,6 +102,13 @@
 			"sig": "fN3vprB5ISUFJHUMmhipKbXuvSBtGrCIyjsCWRkA5ZwJcQHCQatFA0TNyY3r8I2G7kMpUCx3DD9dvhWq3PJZk6J1sUCqmxoZ4XQ61M08O74M2YVn9FvGNGI5xRrGu/rCnHPMK/xRxWlYt2U+TAI+BHNAtQ3W9P0Ax2JYmVSgXJc="
 		},
 		{
+			"name": "玉树4",
+			"authorization-date": "2025-04-27",
+			"client-signature": "AF0Q-gGQA-AAA=",
+			"valid-to": "2025-10-31",
+			"sig": "X23CvqAxEOXq5IBXE4gfhRiicIEnIPA5p14RdFkEUXcy+VfXJCh7iyrB4+tjA856GYRB3JzhEYfJm6FLd1lUeWY2rhq8BJPgWL5hSO/vGDA9tz1fK9Cx0GtKeQ/0c4wZ3sxRxMt23uImh3zq4lwFHVH6islzzvFVZBnQZa/bjQM="
+		},		
+		{
 			"name": "大洋(张掖)-1",
 			"authorization-date": "2024-04-15",
 			"client-signature": "AEeT-A5wA-AAA=",
