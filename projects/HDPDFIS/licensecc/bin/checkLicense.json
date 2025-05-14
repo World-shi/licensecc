@@ -18,6 +18,13 @@
 	],
 	"valid": [
 		{
+			"name": "酒泉数字报",
+			"authorization-date": "2025-05-14",
+			"client-signature": "AFSd-QTYA-AAA=",
+			"valid-to": "2035-11-31",
+			"sig": "XG4iuj9lqYjZzSOf5iT5fCwnO00s83rpAFe57/bTC4jhUriEsa4N9iTWj10kMKQeSNfyzJ9vtEgtdSmiM25QYNzArtm2vHgzndCHystje3j7ucSYdo4hVJ4KPpmpsx2KFMks2H8j5jcYz4aJtfpeU0lNLMDcL574w5rFPuwnTjw="
+		},	
+		{
 			"name": "昌平融媒体中心",
 			"authorization-date": "2025-04-22",
 			"client-signature": "AEmL-CYoA-AAA=",
