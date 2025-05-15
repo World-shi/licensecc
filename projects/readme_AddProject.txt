@@ -5,7 +5,7 @@
    HDPDFIS.ras.pub
 
 2 生成工程所需要的public_key.h文件，供使用加密项目使用 (详见:lccgen.exe project initialize --help)
-   lccgen.exe project initialize -n HDNLRP --primary-key HDPDFIS.ras --public-key HDPDFIS.ras.pub -p HDNLRP -t D:\SourceCode\HDS\licensecc\projects\HDPDFIS\licensecc\bin\cmd\templates
+   lccgen.exe project initialize -n HDNLRP --primary-key HDPDFIS.ras --public-key HDPDFIS.ras.pub -p HDNLRP -t D:\SourceCode\HDS\licensecc\projects\HDPDFIS\licensecc\bin\templates
    注意：(1) -t 后面的模板一定要指定
          (2) primary-key --- HDPDFIS.ras
 		     public-key  --- HDPDFIS.ras.pub
