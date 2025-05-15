@@ -14,7 +14,10 @@
 #define LCC_TEST_LICENSES_PROJECT "D:/SourceCode/HDS/licensecc/build/Testing/Temporary/DEFAULT"
 #define LCC_LICENSES_BASE LCC_TEST_LICENSES_PROJECT "/licenses"
 #define LCC_PROJECTS_BASE_DIR "D:/SourceCode/HDS/licensecc/projects"
-#define LCC_PROJECT_PRIVATE_KEY "D:/SourceCode/HDS/licensecc/projects/DEFAULT/private_key.rsa"
+//#define LCC_PROJECT_PRIVATE_KEY "D:/SourceCode/HDS/licensecc/projects/HDNLRP/HDNLRP/private_key.rsa"
+//#define LCC_PROJECT_PRIVATE_KEY "D:/SourceCode/HDS/licensecc/projects/DEFAULT/private_key.rsa"
+// HDPDFIS =ok 
+#define LCC_PROJECT_PRIVATE_KEY "D:/SourceCode/HDS/licensecc/projects/HDPDFIS/licensecc/bin/cmd/private_key.rsa"
 
 /*
  * command line parameters 

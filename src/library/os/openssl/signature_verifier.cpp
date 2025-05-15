@@ -43,11 +43,11 @@ static void initialize() {
 
 FUNCTION_RETURN verify_signature(const std::string& stringToVerify, const std::string& signatureB64) {
 	EVP_MD_CTX* mdctx = NULL;
-	const unsigned char pubKey[] = PUBLIC_KEY;
+	//const unsigned char pubKey[] = PUBLIC_KEY;
 	int func_ret = 0;
 	initialize();
 
-	BIO* bio = BIO_new_mem_buf((void*)(pubKey), sizeof(pubKey));
+	BIO* bio = BIO_new_mem_buf((void*)(g_public_key), sizeof(g_public_key));
 	RSA* rsa = d2i_RSAPublicKey_bio(bio, NULL);
 	BIO_free(bio);
 	if (rsa == NULL) {
