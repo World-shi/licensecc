@@ -14,15 +14,22 @@
 			"client-signature": "AEzg-VjgA-AAA=",
 			"valid-to": "2033-11-31",
 			"sig": "R8u7OYDHZFt+SNjINrNVaTK6ejei8eM55bqPXyvSjYs7wXxxvnO8wMnBEd9bsmDavgqO9h+D4ELWAhcLCJEtANsSfL1c1sYAcMT3oCX5KjgGn338wtUJ7m3UyENeohz5kfMuBS32ZkJfqunaLXEP5qItzfC6dKbg/QqGSv1ROZ8="
-		}
-	],
-	"valid": [
+		},
 		{
 			"name": "酒泉数字报",
 			"authorization-date": "2025-05-14",
 			"client-signature": "AFSd-QTYA-AAA=",
 			"valid-to": "2035-11-31",
 			"sig": "XG4iuj9lqYjZzSOf5iT5fCwnO00s83rpAFe57/bTC4jhUriEsa4N9iTWj10kMKQeSNfyzJ9vtEgtdSmiM25QYNzArtm2vHgzndCHystje3j7ucSYdo4hVJ4KPpmpsx2KFMks2H8j5jcYz4aJtfpeU0lNLMDcL574w5rFPuwnTjw="
+		}		
+	],
+	"valid": [
+		{
+			"name": "酒泉数字报2",
+			"authorization-date": "2025-05-16",
+			"client-signature": "AEIZ-paEA-AAA=",
+			"valid-to": "2035-11-31",
+			"sig": "lruTr94LmIiPmRltorsHXNGjvmdpzvo2dM1jotcSpn7YwCykoixBO2WQyvowNC03rlmzkzcTNbR+Ld6JO9HinutGvhlmuL67bnVk0a5buZcZ3NTtcrtHogQUowml59G2cxQPuFIbkrXwuE9pU1vrJ3yiXXu3OZK9b/JBZgDMDOE="
 		},	
 		{
 			"name": "昌平融媒体中心",
