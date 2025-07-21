@@ -25,6 +25,13 @@
 	],
 	"valid": [
 		{
+			"name": "海北州报社项目",
+			"authorization-date": "2025-07-21",
+			"client-signature": "AFuc-dVoA-AAA=",
+			"valid-to": "2045-11-31",
+			"sig": "OL+hwc+UNMJSF+P8yTs4vQ0dE6OcSzVA7P9LfS6BOToWERoKlHZGSbXus0rPrzPWSSSZJoPqhAYVG/ZEy1eNYw3bi2p/dmXRDJNOzxYTcpQQqFLcAr+iRKUigXP0zZ8i5eHGaf+v5TqJ8KG2JEykdSNM8K5Tkjv/X1XSSqJN9Sk="
+		},
+		{
 			"name": "益阳日报社项目",
 			"authorization-date": "2025-06-19",
 			"client-signature": "AAAC-ETIr-uls=",
