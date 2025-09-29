@@ -7,3 +7,5 @@ eg.
 
  lccgen.exe license issue -e 2025-11-31 -f  HDPS --primary-key ./../../../HDPS/private_key.rsa -p ./../../../HDPS/output  -o ./../../../HDPS/output/license.lic -s AEjP-GMIA-AAA=
 
+ lccgen.exe license issue -e 2025-11-31 -f  HDID --primary-key ./../../../HDID/private_key.rsa -p ./../../../HDID/output  -o ./../../../HDID/output/license.lic -s AEjP-GMIA-AAA=
+

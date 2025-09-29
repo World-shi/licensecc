@@ -10,12 +10,12 @@
    (B)
       lccgen.exe project initialize -n HDNLRP --primary-key HDPDFIS.ras --public-key HDPDFIS.ras.pub -p HDNLRP -t D:\SourceCode\HDS\licensecc\projects\HDPDFIS\licensecc\bin\templates
    注意：(1) -t 后面的模板一定要指定
-         (2) primary-key --- HDPDFIS.ras （可不指定）
-		     public-key  --- HDPDFIS.ras.pub（可不指定）
-			 licensecc_static.lib --- public_key.h
+              (2)  primary-key           --- HDPDFIS.ras （可不指定）
+                      public-key            --- HDPDFIS.ras.pub（可不指定）
+	  licensecc_static.lib --- public_key.h
 			 其中工程所需信赖关系：licensecc_static.lib -> os.lib  -> public_key.h
 			 [licensecc_static工程中包函了os中的许多obj文件，其中也就是os.lib]
-         (3)在(2)的基础上修改了public_key中的定义位置，直接在所需的工程中添加全局g_public_key
+             (3)在(2)的基础上修改了public_key中的定义位置，直接在所需的工程中添加全局g_public_key
 		    // 这是HDNLRP工程的public_key,不同的工程添加内容不同，根据生成的public_key.h中的定义copy过来即可。
 		     #if !_DEBUG
 				#define PRODUCT_NAME HDNLRP
