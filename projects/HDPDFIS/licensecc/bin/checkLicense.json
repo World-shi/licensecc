@@ -21,22 +21,29 @@
 			"client-signature": "AFSd-QTYA-AAA=",
 			"valid-to": "2035-11-31",
 			"sig": "XG4iuj9lqYjZzSOf5iT5fCwnO00s83rpAFe57/bTC4jhUriEsa4N9iTWj10kMKQeSNfyzJ9vtEgtdSmiM25QYNzArtm2vHgzndCHystje3j7ucSYdo4hVJ4KPpmpsx2KFMks2H8j5jcYz4aJtfpeU0lNLMDcL574w5rFPuwnTjw="
-		}		
+		},
+		{
+			"name": "河南科技馆",
+			"authorization-date": "2025-07-02",
+			"client-signature": "AECi-QBQA-AAA=",
+			"valid-to": "2045-11-31",
+			"sig": "nsLHIrE2WEMrEPrZhJJX3zgKysCrg3Ta6AvsrJleGvYw6dwE5lQ4WpW4FnlwbYIrpAVZdMDOtwsEMzrGGQcMlCU8IHdvt2A3Kh1SvN4QRTuXRzVm0HJG5cLvzYZIE4x0O5rWss//9dsFHaYw2ltklfRm3MOCzE7lsQbHHyTBgbA="
+		}
 	],
 	"valid": [
 		{
-			"name": "海北州报社项目",
-			"authorization-date": "2025-07-21",
-			"client-signature": "AFuc-dVoA-AAA=",
+			"name": "河南科技馆",
+			"authorization-date": "2025-10-24",
+			"client-signature": "AFDF-bywA-AAA=",
 			"valid-to": "2045-11-31",
-			"sig": "OL+hwc+UNMJSF+P8yTs4vQ0dE6OcSzVA7P9LfS6BOToWERoKlHZGSbXus0rPrzPWSSSZJoPqhAYVG/ZEy1eNYw3bi2p/dmXRDJNOzxYTcpQQqFLcAr+iRKUigXP0zZ8i5eHGaf+v5TqJ8KG2JEykdSNM8K5Tkjv/X1XSSqJN9Sk="
+			"sig": "H6si6ma1nm7uNYeE1LY++tu48eGD2GCkzlVMMBVPqRcTELZREVDwO/gfvlOqkGTz6LgG6Y7yq9zTWWwmDsaGW68PZ3vZejsta2aNwfq2dEdXbG8wnzFVR/lseg1HH4dzEaD3/oTPr3LFygFo3c80KdzSPVsC9E7zlZKAxU3mf/A="
 		},
 		{
-			"name": "益阳日报社项目",
-			"authorization-date": "2025-06-19",
-			"client-signature": "AAAC-ETIr-uls=",
-			"valid-to": "2125-11-31",
-			"sig": "pmBNsbvzquc9OxDEWQjfcTzvQhakrUfU8LFKnhlM8FBwuxjWXA6Rt4Nag4DrMLtcnMTAWTh/5V39T9HQvaDI1FuZ0/hJJ0QIl5P3tptCRdFeroMx5iu9MI099BjXYD54jXyWtA5MD+1nb1CYMyoDhoRqgapxQ1CrL3FrtkrJuk4="
+			"name": "酒泉数字报2",
+			"authorization-date": "2025-06-24",
+			"client-signature": "AAAA-DClV-H9g=",
+			"valid-to": "2045-11-31",
+			"sig": "gvnValYL0/O3KxkUcHFb95J+GsOrVtsRj6PjmfVWvT1WKyBNqpVXbo5XCNlw1iOjGESVbPUIINSJfCgdHv282ejQKTom85A8lo+CxPOCfdve+qvxoSbTRA4F1vZroLCNfCg6aZdPkPho61cw+aa2gL6H0OSODKdA1jUwxOVZbAo="
 		},	
 		{
 			"name": "酒泉数字报2",
@@ -79,7 +86,7 @@
 			"client-signature": "AEbH-z/QA-AAA=",
 			"valid-to": "2035-11-31",
 			"sig": "Mu2kU7jRa/7c829qaFuRPwgWt7HCO9f8dadGtmqAphTqsCr+yVHlMmixfGuPcrPA6QQqdXfhIHgDpRp0BU7fjTGeVI77POpdxgzE89yXHeNaz0qHYF5n/Fj66OuDyokUTWy5pMSqAtNDQ1vJ1etEYkihzkvLzMh2HhXsAiDo+Yo="
-		},
+		},	
 		{
 			"name": "海南州",
 			"authorization-date": "2024-01-09",
@@ -129,13 +136,6 @@
 			"valid-to": "2033-11-31",
 			"sig": "fN3vprB5ISUFJHUMmhipKbXuvSBtGrCIyjsCWRkA5ZwJcQHCQatFA0TNyY3r8I2G7kMpUCx3DD9dvhWq3PJZk6J1sUCqmxoZ4XQ61M08O74M2YVn9FvGNGI5xRrGu/rCnHPMK/xRxWlYt2U+TAI+BHNAtQ3W9P0Ax2JYmVSgXJc="
 		},
-		{
-			"name": "玉树4",
-			"authorization-date": "2025-04-27",
-			"client-signature": "AF0Q-gGQA-AAA=",
-			"valid-to": "2025-10-31",
-			"sig": "X23CvqAxEOXq5IBXE4gfhRiicIEnIPA5p14RdFkEUXcy+VfXJCh7iyrB4+tjA856GYRB3JzhEYfJm6FLd1lUeWY2rhq8BJPgWL5hSO/vGDA9tz1fK9Cx0GtKeQ/0c4wZ3sxRxMt23uImh3zq4lwFHVH6islzzvFVZBnQZa/bjQM="
-		},		
 		{
 			"name": "大洋(张掖)-1",
 			"authorization-date": "2024-04-15",
