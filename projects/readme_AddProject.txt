@@ -6,7 +6,7 @@
 
 2 生成工程所需要的public_key.h文件，供使用加密项目使用 (详见:lccgen.exe project initialize --help)
    (A) cmd在D:\SourceCode\HDS\licensecc\projects目录下
-       HDPDFIS\licensecc\bin\lccgen.exe project initialize -n HDPS  -t D:\SourceCode\HDS\licensecc\projects\HDPDFIS\licensecc\bin\templates   
+       HDPDFIS\licensecc\bin\lccgen.exe project initialize -n HDPDFMK  -t D:\SourceCode\HDS\licensecc\projects\HDPDFIS\licensecc\bin\templates   
    (B)
       lccgen.exe project initialize -n HDNLRP --primary-key HDPDFIS.ras --public-key HDPDFIS.ras.pub -p HDNLRP -t D:\SourceCode\HDS\licensecc\projects\HDPDFIS\licensecc\bin\templates
    注意：(1) -t 后面的模板一定要指定
