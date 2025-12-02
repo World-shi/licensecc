@@ -112,15 +112,15 @@
 			"name": "岳阳日报",
 			"authorization-date": "2025-12-02",
 			"client-signature": "AEEC-KFQA-AAA=",
-			"valid-to": "2026-11-31",
-			"sig": "EPfbDauNtBcpawGNfA9qBgi1ivdHx1PJj86IV7CMvvQerTiB+tJ52wKP5SjxOwou1sSb/48v8YGBWvOKcz8/XhFh9+/V702LeuuP939qR9EJbOezaGIQmRm+ggFcjUurbI1rXctiEhg/DnLl1z0pQV02auvhYS2Z6n6xdOZqevA="
+			"valid-to": "2046-11-31",
+			"sig": "mLXRQi9vpnbQSHmtMMJeEhf/cjbW/MnOtRF7ztn2/OlmsPI4+nHH4b3LT3hWx564fa00a1EK/sxsy+QhXH8HNHbDSejLQaWegGEuqXxIzs61shLQfpiTkuyLjYieBCdgARwHuT0rTzD2C1g8ZYqonx2LRSzzJ/WmNqlMTikM8nM="
 		},
 		{
 			"name": "岳阳日报2",
 			"authorization-date": "2025-12-02",
 			"client-signature": "AFyB-YK4A-AAA=",
-			"valid-to": "2026-11-31",
-			"sig": "i7ZE7sThrZVPRi3+hlsleabWwrr1M0uYikP5CHEP7szvbcFQBwG4hWJdmY8/UTFrNsGfhUVUXCK05uhpHtdt2S3id3at0zvDcKZq4JTkr421ry5ACcPCxosabkG+sF+2HQj9hU6UacCAVwR8Z+HJnvp1Uk6YplaQ0Ce1uFM0kEQ="
+			"valid-to": "2046-11-31",
+			"sig": "IG0w4413cVcWeWfm5sZfEOkBQHvsfe9+MVhU+GgyjD/e/eZqgVXxkv9MzNZ7K4gWtM3ir05DvF/azd3+YdPdW5jEEoY+3WFbmpbjcfzh1ULrSOFkUssTqklSpNv4F1ehTmW8AeikiQXxmkgw91BEkFWeFCU9XGVsVA0IeVrN6xk="
 		},
 		{
 			"name": "许昌日报",
