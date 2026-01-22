@@ -16,11 +16,32 @@
 			"sig": "R8u7OYDHZFt+SNjINrNVaTK6ejei8eM55bqPXyvSjYs7wXxxvnO8wMnBEd9bsmDavgqO9h+D4ELWAhcLCJEtANsSfL1c1sYAcMT3oCX5KjgGn338wtUJ7m3UyENeohz5kfMuBS32ZkJfqunaLXEP5qItzfC6dKbg/QqGSv1ROZ8="
 		},
 		{
+			"name": "玉树",
+			"authorization-date": "2024-04-11",
+			"client-signature": "AE3l-0AYA-AAA=",
+			"valid-to": "2033-11-31",
+			"sig": "WU/4IMGGzsMjAiX5GdYSgSbXT9lD95y+CSuyXMj6HctGc7EWMiiM7+JN1NmSSxHRSP9H0L9fqx0fchFuXFEglSvWM2aFNMcBhP8t2YOXnU6htMtYGeC/tm5fbJV0k5Qh8Oi0yZ4kgo0MkFYI7wrkOM44kxYpZ2TL5P8W4pXMvKc="
+		},
+		{
+			"name": "玉树3",
+			"authorization-date": "2024-08-21",
+			"client-signature": "AFvB-t8YA-AAA=",
+			"valid-to": "2033-11-31",
+			"sig": "fN3vprB5ISUFJHUMmhipKbXuvSBtGrCIyjsCWRkA5ZwJcQHCQatFA0TNyY3r8I2G7kMpUCx3DD9dvhWq3PJZk6J1sUCqmxoZ4XQ61M08O74M2YVn9FvGNGI5xRrGu/rCnHPMK/xRxWlYt2U+TAI+BHNAtQ3W9P0Ax2JYmVSgXJc="
+		},
+		{
 			"name": "酒泉数字报",
 			"authorization-date": "2025-05-14",
 			"client-signature": "AFSd-QTYA-AAA=",
 			"valid-to": "2035-11-31",
 			"sig": "XG4iuj9lqYjZzSOf5iT5fCwnO00s83rpAFe57/bTC4jhUriEsa4N9iTWj10kMKQeSNfyzJ9vtEgtdSmiM25QYNzArtm2vHgzndCHystje3j7ucSYdo4hVJ4KPpmpsx2KFMks2H8j5jcYz4aJtfpeU0lNLMDcL574w5rFPuwnTjw="
+		},
+		{
+			"name": "忻州日报2",
+			"authorization-date": "2025-04-17",
+			"client-signature": "AEhf-mZgA-AAA=",
+			"valid-to": "2035-11-31",
+			"sig": "pYCrVbeNcY8ZnA78tnttYgZC4Ec0V0tQT7UxggTOllX50jmpAzPFjuX//yigGYnuasOgfMqb9mOUNYNknlcx8cEa6Lcdyf9fCHM2aeGj7Y4giACidnrVACdwZYnUYAvzmH3jR5lT1zc9ia733IDawIRML9R2iwUgsO75BZVzcEg="
 		},
 		{
 			"name": "河南科技馆",
@@ -31,6 +52,13 @@
 		}
 	],
 	"valid": [
+		{
+			"name": "迪庆日报（藏文）",
+			"authorization-date": "2025-12-31",
+			"client-signature": "AEsv-COoA-AAA=",
+			"valid-to": "2046-02-28",
+			"sig": "JE82gfjfKjaHKTQCIaBJ8uLoKkr0w8hNJQFWMtnTUbuqETlbWbjuRu9UsvzhrhuK0brNYysyp2EglJeksWwbFkENeonSBvh5Y3WVl3xsNU9vwUVbyd+yPOcYxjGRk28QB3nOlE6YruRgfy7K4ljZEB/Xu8FCNKWRXp1jr2upprI="
+		},
 		{
 			"name": "河南科技馆",
 			"authorization-date": "2025-10-24",
@@ -65,13 +93,13 @@
 			"client-signature": "AFBS-SeYA-AAA=",
 			"valid-to": "2035-11-31",
 			"sig": "WJKzL65z9D7oqICl8kppd8kxrM/G/gcan0o1jKVclSco61113EGzODEoONOkTeGX6uxLJY7RKEgWmsLAU6rkrko4RofcR09lQqO2beezEIcTWz0SdIW7B91kBOCjyP7xwX4Tnh2Kc3ZBp9GxPezwbELc+U0pOtAMumOPfK6KPSU="
-		},	
+		},		
 		{
-			"name": "忻州日报2",
-			"authorization-date": "2025-04-17",
-			"client-signature": "AEhf-mZgA-AAA=",
-			"valid-to": "2035-11-31",
-			"sig": "pYCrVbeNcY8ZnA78tnttYgZC4Ec0V0tQT7UxggTOllX50jmpAzPFjuX//yigGYnuasOgfMqb9mOUNYNknlcx8cEa6Lcdyf9fCHM2aeGj7Y4giACidnrVACdwZYnUYAvzmH3jR5lT1zc9ia733IDawIRML9R2iwUgsO75BZVzcEg="
+			"name": "忻州日报3",
+			"authorization-date": "2026-01-22",
+			"client-signature": "AF1m-9HAA-AAA=",
+			"valid-to": "2045-11-28",
+			"sig": "bkj9Zj+bqqGjqdvnE81VbzDvDN0u3JYTwdxAoD/RLzO9a6Or5g8VS8EtYrFiavhG+oCERX0qbZr7uLIG0bqvletxIrHmoY0Sm1nh6u5FB8Zmo+iW8htcilwzUcKqX3rPhc/SIWCsrXst8cc9h/USNIbhVO1/ku5Z6HeWwQbPQSQ="
 		},	
 		{
 			"name": "湘西自治州团结报社",
@@ -128,20 +156,6 @@
 			"client-signature": "AF2x-2PoA-AAA=",
 			"valid-to": "2030-02-19",
 			"sig": "KOSAl6Xe77IKOxO/A5x9+82CGdcuYEwCGn312fOI7IPdSRX5BP1JFJZU8Qj2VUZOM7yUz6E9sENQ0+nXvtqXKEtqANUpj38UuCKLfSn3K5x09E4ofDHV74Z/Wihnz+eQ7T7i70HSIGutnfez5+7nRXN8RVaOe7Uvl/eKsW2D8Hk="
-		},
-		{
-			"name": "玉树",
-			"authorization-date": "2024-04-11",
-			"client-signature": "AE3l-0AYA-AAA=",
-			"valid-to": "2033-11-31",
-			"sig": "WU/4IMGGzsMjAiX5GdYSgSbXT9lD95y+CSuyXMj6HctGc7EWMiiM7+JN1NmSSxHRSP9H0L9fqx0fchFuXFEglSvWM2aFNMcBhP8t2YOXnU6htMtYGeC/tm5fbJV0k5Qh8Oi0yZ4kgo0MkFYI7wrkOM44kxYpZ2TL5P8W4pXMvKc="
-		},
-		{
-			"name": "玉树3",
-			"authorization-date": "2024-08-21",
-			"client-signature": "AFvB-t8YA-AAA=",
-			"valid-to": "2033-11-31",
-			"sig": "fN3vprB5ISUFJHUMmhipKbXuvSBtGrCIyjsCWRkA5ZwJcQHCQatFA0TNyY3r8I2G7kMpUCx3DD9dvhWq3PJZk6J1sUCqmxoZ4XQ61M08O74M2YVn9FvGNGI5xRrGu/rCnHPMK/xRxWlYt2U+TAI+BHNAtQ3W9P0Ax2JYmVSgXJc="
 		},
 		{
 			"name": "大洋(张掖)-1",
