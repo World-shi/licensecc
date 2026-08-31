@@ -1,4 +1,6 @@
 #include <array>
+#include <string>
+#include <stdexcept>
 #include "identification_strategy.hpp"
 #include "default_strategy.hpp"
 #include "ethernet.hpp"
@@ -47,6 +49,10 @@ std::unique_ptr<IdentificationStrategy> IdentificationStrategy::get_strategy(LCC
 		case STRATEGY_DISK:
 			result = unique_ptr<IdentificationStrategy>(dynamic_cast<IdentificationStrategy*>(new DiskStrategy()));
 			break;
+		case STRATEGY_HOST_NAME:
+		case STRATEGY_CPU_SIZE:
+		case STRATEGY_NONE:
+			throw logic_error("strategy " + to_string((int)strategy) + " is not implemented");
 		default:
 			throw logic_error("strategy not supported");
 	}

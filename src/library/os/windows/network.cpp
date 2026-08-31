@@ -126,11 +126,19 @@ FUNCTION_RETURN getAdapterInfos(vector<OsAdapterInfo> &adapterInfos) {
 		}
 	}
 
+	// MIB_IF_TYPE_ETHERNET(6); Wi-Fi often IF_TYPE_IEEE80211(71); some stacks use OTHER(1)
+#ifndef IF_TYPE_IEEE80211
+#define IF_TYPE_IEEE80211 71
+#endif
 	IP_ADAPTER_INFO* pAdapter = pAdapterInfo;
 	while (pAdapter) {
-		if (pAdapter->Type == MIB_IF_TYPE_ETHERNET) {
+		const bool usable_type = (pAdapter->Type == MIB_IF_TYPE_ETHERNET)
+			|| (pAdapter->Type == IF_TYPE_IEEE80211)
+			|| (pAdapter->Type == MIB_IF_TYPE_OTHER);
+		if (usable_type && pAdapter->Type != MIB_IF_TYPE_LOOPBACK) {
 			OsAdapterInfo ai = {};
-			LOG_DEBUG("Ethernet found %s, %s, mac_l: %d", pAdapter->AdapterName, pAdapter->Description, pAdapter->AddressLength);
+			LOG_DEBUG("Adapter found type=%lu %s, %s, mac_l: %d", (unsigned long)pAdapter->Type,
+					  pAdapter->AdapterName, pAdapter->Description, pAdapter->AddressLength);
 			if (pAdapter->AddressLength > 0) {
 				bool allzero = true;
 				const size_t size_to_be_copied = std::min(sizeof(ai.mac_address), (size_t)pAdapter->AddressLength);

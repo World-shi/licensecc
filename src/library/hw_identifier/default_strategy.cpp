@@ -6,12 +6,18 @@
  */
 
 #include <vector>
+#include <stdexcept>
+#include "../base/logger.h"
 #include "../os/execution_environment.hpp"
 #include "default_strategy.hpp"
 
 using namespace std;
 namespace license {
 namespace hw_identifier {
+
+static bool strategy_implemented(LCC_API_HW_IDENTIFICATION_STRATEGY s) {
+	return s == STRATEGY_ETHERNET || s == STRATEGY_IP_ADDRESS || s == STRATEGY_DISK;
+}
 
 static vector<LCC_API_HW_IDENTIFICATION_STRATEGY> available_strategies() {
 	const os::ExecutionEnvironment exec;
@@ -46,10 +52,19 @@ FUNCTION_RETURN DefaultStrategy::generate_pc_id(HwIdentifier& pc_id) const {
 	FUNCTION_RETURN ret = FUNC_RET_NOT_AVAIL;
 	for (auto it : strategy_to_try) {
 		LCC_API_HW_IDENTIFICATION_STRATEGY strat_to_try = it;
-		unique_ptr<IdentificationStrategy> strategy_ptr = IdentificationStrategy::get_strategy(strat_to_try);
-		ret = strategy_ptr->generate_pc_id(pc_id);
-		if (ret == FUNC_RET_OK) {
-			break;
+		if (!strategy_implemented(strat_to_try)) {
+			LOG_WARN("Skipping unimplemented hw id strategy %d", (int)strat_to_try);
+			continue;
+		}
+		try {
+			unique_ptr<IdentificationStrategy> strategy_ptr = IdentificationStrategy::get_strategy(strat_to_try);
+			ret = strategy_ptr->generate_pc_id(pc_id);
+			if (ret == FUNC_RET_OK) {
+				break;
+			}
+		} catch (const std::exception& ex) {
+			LOG_WARN("hw id strategy %d threw: %s", (int)strat_to_try, ex.what());
+			ret = FUNC_RET_NOT_AVAIL;
 		}
 	}
 	return ret;
@@ -58,12 +73,18 @@ FUNCTION_RETURN DefaultStrategy::generate_pc_id(HwIdentifier& pc_id) const {
 std::vector<HwIdentifier> DefaultStrategy::alternative_ids() const {
 	vector<LCC_API_HW_IDENTIFICATION_STRATEGY> strategy_to_try = available_strategies();
 	vector<HwIdentifier> identifiers;
-	FUNCTION_RETURN ret = FUNC_RET_NOT_AVAIL;
 	for (auto it : strategy_to_try) {
 		LCC_API_HW_IDENTIFICATION_STRATEGY strat_to_try = it;
-		unique_ptr<IdentificationStrategy> strategy_ptr = IdentificationStrategy::get_strategy(strat_to_try);
-		vector<HwIdentifier> alt_ids = strategy_ptr->alternative_ids();
-		identifiers.insert(alt_ids.begin(), alt_ids.end(), identifiers.end());
+		if (!strategy_implemented(strat_to_try)) {
+			continue;
+		}
+		try {
+			unique_ptr<IdentificationStrategy> strategy_ptr = IdentificationStrategy::get_strategy(strat_to_try);
+			vector<HwIdentifier> alt_ids = strategy_ptr->alternative_ids();
+			identifiers.insert(identifiers.end(), alt_ids.begin(), alt_ids.end());
+		} catch (const std::exception& ex) {
+			LOG_WARN("hw id strategy %d threw: %s", (int)strat_to_try, ex.what());
+		}
 	}
 	return identifiers;
 }

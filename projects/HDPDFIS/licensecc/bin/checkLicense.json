@@ -53,6 +53,13 @@
 	],
 	"valid": [
 		{
+			"name": "玉树",
+			"authorization-date": "2026-04-07",
+			"client-signature": "AF0C-WU4A-AAA=",
+			"valid-to": "2055-11-28",
+			"sig": "cyNQTwSOuiD+1bkkkbyJDKjNwZClD8lo176qm8/sRq0KCUwk8txpkm5dZdQcQUqlEHUjZzrEyZe1poG6mMFvuy5LSW5RW9UivAXMRsGuTXvbQO4eyVtBFrVUKcjnjBnF4dk2d4fGhluNRyqqwFZo/SGG8BuftCiPj86xI2ZOfTY="
+		},
+		{
 			"name": "迪庆日报（藏文）",
 			"authorization-date": "2025-12-31",
 			"client-signature": "AEsv-COoA-AAA=",
@@ -117,10 +124,10 @@
 		},	
 		{
 			"name": "海南州",
-			"authorization-date": "2024-01-09",
+			"authorization-date": "2026-04-08",
 			"client-signature": "AErT-DgAA-AAA=",
-			"valid-to": "2027-11-31",
-			"sig": "NWtKsceZ4RlDUlGwSydQ52Uof7ubrmAcd38ptq1OwdBkzY0d7gxAnQIMvf3hroICUUBjjlGRyBkZUNqSXE2Im4F9VJjXFsz6Yxg2p0DjM8lZJF2Mo+3vZa5cv6dlS7Rb2TxunvU/E1bF6OwhriA/UFrgenKSwdK/T1QPZjxMs+A="
+			"valid-to": "2045-11-28",
+			"sig": "i+7toODSfiRNpKBAq0XT9dSvYrkrHTPqEAvcqdvV02DE2RajyId9VsvcqBLNPd2+a6O4aNUkUguMbz1fBLOD6djkyWC0H8B4rhsqEO7q6/RMDw9k38QxRm+vBEBaz0LPy+FQBzNPRgwSWAq4fed7JSwWgGV2MMYk/UqO5uxRhe0="
 		},
 		{
 			"name": "海南州2",
@@ -156,6 +163,20 @@
 			"client-signature": "AF2x-2PoA-AAA=",
 			"valid-to": "2030-02-19",
 			"sig": "KOSAl6Xe77IKOxO/A5x9+82CGdcuYEwCGn312fOI7IPdSRX5BP1JFJZU8Qj2VUZOM7yUz6E9sENQ0+nXvtqXKEtqANUpj38UuCKLfSn3K5x09E4ofDHV74Z/Wihnz+eQ7T7i70HSIGutnfez5+7nRXN8RVaOe7Uvl/eKsW2D8Hk="
+		},
+		{
+			"name": "周口1",
+			"authorization-date": "2026-05-11",
+			"client-signature": "AF13-CAAA-AAA=",
+			"valid-to": "2046-07-28",
+			"sig": "pyfOAlFhbwv/PTRAK3fteH2vtYZhEsOPynMURZlI/4YuAueygOsfUOCkGNr3epNAmVIeysYRspCiW8EMZL2tvgDxpVr9wvAldUJD89J+5BBWcmnbSxcdvDACMIZOSZR/7tkr/LzvvpMSfleN7ojhc2AZ/4ToC8eHGNAb+23Zl40="
+		},
+		{
+			"name": "周口2",
+			"authorization-date": "2026-06-03",
+			"client-signature": "AAAo-btSS-xkE=",
+			"valid-to": "2056-07-28",
+			"sig": "LzupZ//JDsUB6pH+CEuCMBB4TYSqA1YFgQD7JTaOKJ6vM7yMI/g6j61cig4SfbbrBkA6gKiBL3W8haigvCqHEIN9vKTVqEQL6qTOjUdn2/zoDgyKL6Oum0iMXKVTnYElR7AWvupEP+hqbyAQPkXBxoofnKZaH5Ye5UWXAyuFbME="
 		},
 		{
 			"name": "大洋(张掖)-1",

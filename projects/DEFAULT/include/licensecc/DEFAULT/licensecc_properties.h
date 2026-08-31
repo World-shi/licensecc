@@ -117,17 +117,18 @@ enum LCC_API_HW_IDENTIFICATION_STRATEGY {
 /**
  * List the strategies used when no virtual envrionment is detected
  */
-#define LCC_BARE_TO_METAL_STRATEGIES { STRATEGY_DISK, STRATEGY_HOST_NAME, STRATEGY_NONE }
+#define LCC_BARE_TO_METAL_STRATEGIES { STRATEGY_DISK, STRATEGY_ETHERNET, STRATEGY_IP_ADDRESS }
 /**
- * List the strategies used when the software is executing in a virtual machine
+ * List the strategies used when the software is executing in a virtual machine.
+ * DISK first: Win10/11 Hyper-V/WSL2 often sets hypervisor bit on bare metal.
  */
-#define LCC_VM_STRATEGIES { STRATEGY_ETHERNET, STRATEGY_NONE }
-#define LCC_LXC_STRATEGIES { STRATEGY_ETHERNET, STRATEGY_NONE }
-#define LCC_DOCKER_STRATEGIES { STRATEGY_NONE }
+#define LCC_VM_STRATEGIES { STRATEGY_DISK, STRATEGY_ETHERNET, STRATEGY_IP_ADDRESS }
+#define LCC_LXC_STRATEGIES { STRATEGY_DISK, STRATEGY_ETHERNET, STRATEGY_IP_ADDRESS }
+#define LCC_DOCKER_STRATEGIES { STRATEGY_DISK, STRATEGY_ETHERNET, STRATEGY_IP_ADDRESS }
 /**
  * List the strategies used when it's detected an execution in the cloud
  */
-#define LCC_CLOUD_STRATEGIES { STRATEGY_NONE }
+#define LCC_CLOUD_STRATEGIES { STRATEGY_DISK, STRATEGY_ETHERNET, STRATEGY_IP_ADDRESS }
 
 /**
  * @}
